@@ -2,3 +2,4 @@ scipy>=0.11
 pandas
 pysal==1.11.1
 numexpr
+seaborn
