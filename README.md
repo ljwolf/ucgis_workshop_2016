@@ -30,19 +30,38 @@ workshop:
 - Jupyter Notebook
 - Seaborn
 
-Installation instructions:
+Installation Instructions:
 --------------------------
 
-- Download and install Python 2.7 from [Anaconda](https://www.continuum.io/downloads)
+- Download and install Python 2.7 from [Anaconda](https://www.continuum.io/downloads). If you are on Windows, please install the 32-bit version. 
 - Open Terminal.app (Mac) or Powershell (Windows)
 - At the prompt, make sure your installation is up to date by running the
   command: `conda update conda`. directions. Press y if asked to confirm.
+- Next, run `conda update mkl scipy numpy`.
 - Once that finishes, install the dependencies required for the workshop by
-  running `conda install pandas numexpr scipy numpy seaborn`.
+  running `conda install pandas numexpr seaborn`.
 - Then, run `pip install -U pysal` and confirm if asked.
 - Finally, run `conda update jupyter`
 
-Virtual machine instructions:
+Verifying Your Installation:
+-----------------------------
+At the same prompt you used to set up your terminal, type: `ipython` and hit
+enter. It may take a second, but a new prompt should start. This is the ipython
+& jupyter command-line interface. To make sure your environment is configured
+correctly, run each of these commands at the interpreter:
+- `import scipy.stats`
+- `import numpy`
+- `import pysal`
+- `import pandas`
+- `import numexpr`
+- `import matplotlib`
+- `import seaborn`
+
+For windows users, if the first command fails with a message like : `DLL load
+failed. The specified module could not be found`, please uninstall Anaconda and
+be sure to install the 32-bit version. 
+
+Virtual Machine instructions:
 --------------------------------
 
 Instructors:
