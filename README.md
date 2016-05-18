@@ -41,6 +41,9 @@ Installation Instructions:
 - Once that finishes, install the dependencies required for the workshop by
   running `conda install pandas numexpr seaborn`.
 - Then, run `pip install -U pysal` and confirm if asked.
+- After `pysal` is installed, please run the following:
+    - `pip install -U folium`
+    - `pip install -U geojson`
 - Finally, run `conda update jupyter`
 
 Verifying Your Installation:
