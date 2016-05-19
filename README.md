@@ -64,8 +64,6 @@ For windows users, if the first command fails with a message like : `DLL load
 failed. The specified module could not be found`, please uninstall Anaconda and
 be sure to install the 32-bit version. 
 
-Virtual Machine instructions:
---------------------------------
 
 Instructors:
 -------------
