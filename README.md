@@ -36,7 +36,7 @@ Installation Instructions:
 - Download and install Python 2.7 from [Anaconda](https://www.continuum.io/downloads). If you are on Windows, please install the 32-bit version. 
 - Open Terminal.app (Mac) or Powershell (Windows)
 - At the prompt, make sure your installation is up to date by running the
-  command: `conda update conda`. directions. Press y if asked to confirm.
+  command: `conda update conda`. Press `y` if asked to confirm.
 - Next, run `conda update mkl scipy numpy`.
 - Once that finishes, install the dependencies required for the workshop by
   running `conda install pandas numexpr seaborn`.
